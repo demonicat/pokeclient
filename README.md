@@ -7,7 +7,7 @@ Based on [mehah/otclient](https://github.com/mehah/otclient/tree/d10976788162d69
 
 ## Compiling on Arch Linux
 ```sh
-sudo pacman -Syu base-devel git cmake boost physfs openssl lua51 glew libvorbis openal zlib libogg nlohmann-json protobuf
+sudo pacman -Syu base-devel git cmake boost physfs openssl lua51 glew libvorbis openal zlib libogg nlohmann-json protobuf --needed
 
 git clone git@github.com:demonicat/pokeclient.git
 
